@@ -1,75 +1,33 @@
-# Nuxt 3 Minimal Starter
+# Solar Sustain
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Solar Sustain is a solar panel cleaning company based in San Bernardino. This repository contains the Nuxt.js project for our official website.
 
-## Setup
+## Tech Stack
 
-Make sure to install the dependencies:
+This project is built with the following technologies:
 
-```bash
-# npm
-npm install
+- Nuxt.js: A Vue.js framework, used for building user interfaces.
+- Vue.js: A JavaScript framework for building user interfaces.
+- Bun: A package manager for managing dependencies in JavaScript projects.
+- TailwindCSS: A utility-first CSS framework for rapidly building custom user interfaces.
 
-# pnpm
-pnpm install
+## Project setup
 
-# yarn
-yarn install
+To set up the project on your local machine, follow these steps:
 
-# bun
-bun install
-```
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies using `bun install`.
+4. Start the development server using `bun run dev`.
 
-## Development Server
+## Contribution
 
-Start the development server on `http://localhost:3000`:
+We welcome contributions from the community. If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
 
-```bash
-# npm
-npm run dev
+## License
 
-# pnpm
-pnpm run dev
+This project is licensed under the MIT License.
 
-# yarn
-yarn dev
+## Contact
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+If you have any questions or need further clarification, feel free to reach out to us.
