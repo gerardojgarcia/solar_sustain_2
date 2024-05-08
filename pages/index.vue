@@ -7,6 +7,6 @@
         <TheHeader/>
         <TheHero/>
         <TheAboutSection/>
-
+        <TheServicesSection/>
     </div>
 </template>
