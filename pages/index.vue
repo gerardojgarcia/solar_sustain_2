@@ -8,5 +8,6 @@
         <TheHero/>
         <TheAboutSection/>
         <TheServicesSection/>
+        <ThePriceCards/>
     </div>
 </template>
