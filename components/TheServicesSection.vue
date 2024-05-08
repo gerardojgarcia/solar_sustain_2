@@ -3,9 +3,9 @@
 </script>
 
 <template>
-     <div class="grid grid-cols-2 ">
+     <div class="grid grid-cols-2  dark:text-white dark:bg-black ">
         <div class="grid place-items-center">
-    <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-md" height="600px"  />
+    <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-md p-32" height="600px"  />
     </div>
     <div class="p-8">
         <h2 class="text-4xl">Comprehensive Solar Panel Services     </h2>
@@ -18,7 +18,7 @@
                 <strong>Our Promise</strong>
                 <p class="p-8" >For those committed to long-term efficiency, our subscription-based cleaning service offers a convenient and cost-effective solution. Subscribe to our bi-annual plan and receive a 10% discount on the total cost. This plan ensures your solar panels are maintained regularly, which is key to maximizing energy output and extending the lifespan of your system.</p>
             </div>
-            <div class="button-container justify-between py-8 flex border-2 border-white w-1/4">
+            <div class="button-container justify-between py-8 flex border-2 border-white w-3/4">
             <button class="hero-quote bg-yellow-200 p-2 rounded-md">Book Your Cleaning Today</button>
             <button class="hero-quote p-2 border-2 border-gray-400 rounded-md">Subscribe & Save</button>
             </div>
