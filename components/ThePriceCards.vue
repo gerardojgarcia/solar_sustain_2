@@ -64,12 +64,12 @@ const cards = ref([
         <p class="pre-title">{{card.pretitle}}</p>
         <p class="card-title">{{card.title}} </p>
         <p class="card-description">{{card.description}}</p>
-        <ul class="card-pricing" v-for="price in card.pricing">
+        <ul class="card-pricing" v-for="price in card.pricing" :key="card.pricing">
             <li>{{ price }}</li>
 
         
         </ul>
-        <ul class="card-features" v-for="feature in card.features">
+        <ul class="card-features" v-for="feature in card.features" :key="card.features">
         
         <li>{{ feature }}</li>
 
