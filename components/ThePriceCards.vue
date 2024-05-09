@@ -58,6 +58,8 @@ const cards = ref([
 
 
     <div class="grid grid-cols-3 mt-24" >
+
+    <!-- Price Card -->
         <div class="price-card py-8" v-for="card in cards" :key="card.id">
         <p class="pre-title">{{card.pretitle}}</p>
         <p class="card-title">{{card.title}} </p>

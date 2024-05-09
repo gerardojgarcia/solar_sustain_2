@@ -7,12 +7,12 @@
         <div class="grid place-items-center">
     <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-md p-32" height="600px"  />
     </div>
-    <div class="p-8">
-        <h2 class="text-4xl">Comprehensive Solar Panel Services     </h2>
-        <p class="text-2xl">Keep your solar panels performing at their peak with SolarSustain's expert cleaning and maintenance services. Whether you're looking for a one-time clean or ongoing care, we have flexible options tailored to your needs.</p>
-            <div>
+    <div class="p-8 ">
+        <h2 class="text-4xl mb-6">Comprehensive Solar Panel Services     </h2>
+        <p class="text-2xl ">Keep your solar panels performing at their peak with SolarSustain's expert cleaning and maintenance services. Whether you're looking for a one-time clean or ongoing care, we have flexible options tailored to your needs.</p>
+            <div class="mt-8">
                 <strong>One-Time Cleaning Services</strong>
-                <p class="p-8" >Over time, environmental factors such as dust, pollen, and bird droppings can obscure your solar panels, significantly reducing their effectiveness. This is where Solar Sustain steps in. With a focus on thoroughness and professionalism, our team of skilled technicians uses the latest tools and techniques to ensure your solar panels perform at their best. We meticulously remove all debris and residues, allowing your system to generate energy as efficiently as possible.</p>
+                <p class="p-8" >Our one-time cleaning service is perfect for those looking for immediate maintenance or a quick enhancement of their system's efficiency. Our pricing is structured based on the number of panels, ensuring a cost-effective solution for every size of installation.</p>
                 <strong>Subscription-Based Cleaning (Bi-Annual):</strong>
                 <p class="p-8" >Our one-time cleaning service is perfect for those looking for immediate maintenance or a quick enhancement of their system's efficiency. Our pricing is structured based on the number of panels, ensuring a cost-effective solution for every size of installation.</p>
                 <strong>Our Promise</strong>
