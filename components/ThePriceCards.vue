@@ -57,15 +57,15 @@ const cards = ref([
     <p class="price-cards-subheading pb-4 px-96 m-auto text-2xl">Maximize the efficiency and lifespan of your solar panels with SolarSustain's professional cleaning and maintenance services. Choose from our tailored plans designed to fit different needs and scales of solar installations.</p>
 
 
-    <div class="grid grid-cols-3 mt-24" >
+    <div class="grid grid-cols-3 gap-4 mt-24" >
 
     <!-- Price Card -->
-        <div class="price-card py-8" v-for="card in cards" :key="card.id">
-        <p class="pre-title">{{card.pretitle}}</p>
-        <p class="card-title">{{card.title}} </p>
-        <p class="card-description">{{card.description}}</p>
-        <ul class="card-pricing" v-for="price in card.pricing" :key="card.pricing">
-            <li>{{ price }}</li>
+        <div class="price-card p-8 mx-4 rounded-lg border-2 border-blue-400" v-for="card in cards" :key="card.id">
+        <p class="pre-title text-lg">{{card.pretitle}}</p>
+        <p class="card-title text-3xl font-bold">{{card.title}} </p>
+        <p class="card-description text-xl">{{card.description}}</p>
+        <ul class="card-pricing flex flex-col py-8 text-lg  " >
+            <li v-for="price in card.pricing" :key="card.pricing" ><Icon name="ph:check-circle-bold" color="black" class="mr-2" />{{ price }}</li>
 
         
         </ul>
