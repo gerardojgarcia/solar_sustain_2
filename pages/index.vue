@@ -10,5 +10,6 @@
         <TheServicesSection/>
         <ThePriceCards/>
         <AppBanner/>
+        <TheTestimonials/>
     </div>
 </template>
