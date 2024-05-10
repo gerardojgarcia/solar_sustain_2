@@ -11,6 +11,7 @@ This project is built with the following technologies:
 - Bun: A package manager for managing dependencies in JavaScript projects.
 - TailwindCSS: A utility-first CSS framework for rapidly building custom user interfaces.
 
+
 ## Project setup
 
 To set up the project on your local machine, follow these steps:

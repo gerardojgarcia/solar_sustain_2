@@ -53,30 +53,32 @@ const cards = ref([
 </script>
 <template>
     <div class="price-card-container grid grid-cols-1 py-16 dark:text-white dark:bg-black">
-    <h3 class="pb-4 text-4xl m-auto">Tailored Solar Panel Cleaning & Maintenance Plans</h3>
-    <p class="price-cards-subheading pb-4 px-96 m-auto text-2xl">Maximize the efficiency and lifespan of your solar panels with SolarSustain's professional cleaning and maintenance services. Choose from our tailored plans designed to fit different needs and scales of solar installations.</p>
+    <div class="px-60 flex justify-center flex-col items-center">
+        <h3 class="pb-4 text-4xl ">Tailored Solar Panel Cleaning & Maintenance Plans</h3>
+        <p class="price-cards-subheading text-2xl">Maximize the efficiency and lifespan of your solar panels with SolarSustain's professional cleaning and maintenance services. Choose from our tailored plans designed to fit different needs and scales of solar installations.</p>
+    </div>
 
 
     <div class="grid grid-cols-3 gap-4 mt-24" >
 
     <!-- Price Card -->
-        <div class="price-card p-8 mx-4 rounded-lg border-2 border-blue-400" v-for="card in cards" :key="card.id">
+        <div class="price-card p-8 mx-10 rounded-lg border-2 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id">
         <p class="pre-title text-lg">{{card.pretitle}}</p>
-        <p class="card-title text-3xl font-bold">{{card.title}} </p>
+        <p class="card-title text-4xl font-bold py-2">{{card.title}} </p>
         <p class="card-description text-xl">{{card.description}}</p>
-        <ul class="card-pricing flex flex-col py-8 text-lg  " >
+        <ul class="card-pricing flex flex-col py-8 text-xl  " >
             <li v-for="price in card.pricing" :key="card.pricing" ><Icon name="ph:check-circle-bold" color="black" class="mr-2" />{{ price }}</li>
 
         
         </ul>
-        <ul class="card-features" v-for="feature in card.features" :key="card.features">
+        <ul class="card-features list-outside space-y-2" >
         
-        <li>{{ feature }}</li>
+        <li v-for="feature in card.features" :key="card.features">{{ feature }}</li>
 
         </ul>
         
         
-        
+        <button class="border-2 border-blue-400 rounded-md p-2 w-1/4 self-end mt-16 hover:shadow-lg hover:bg-blue-400 hover:text-white" >Book now</button>
         
         </div>
         
