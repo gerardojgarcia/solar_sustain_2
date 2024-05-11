@@ -5,7 +5,7 @@
 
     <div>
 
-        <header class="w-full border-2 p-4 border-white flex justify-evenly">
+        <header class="w-full  p-4flex justify-evenly">
 
         <img src="/" alt="logo">
 
