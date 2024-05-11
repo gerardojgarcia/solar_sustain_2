@@ -62,7 +62,7 @@ const cards = ref([
     <div class="grid grid-cols-3 gap-4 mt-24" >
 
     <!-- Price Card -->
-        <div class="price-card p-8 mx-10 rounded-lg bg-gray-900 border-2 dark:hover:border-blue-300 dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id">
+        <div class="price-card p-8 mx-10 rounded-lg bg-gray-900 border-2 dark:hover:border-blue-200 duration-150 ease-in dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id">
         <p class="pre-title text-lg">{{card.pretitle}}</p>
         <p class="card-title text-4xl font-bold py-2">{{card.title}} </p>
         <p class="card-description text-xl">{{card.description}}</p>
@@ -78,7 +78,7 @@ const cards = ref([
         </ul>
         
         
-        <button class="border-2 border-blue-400 rounded-md p-2 w-1/4 self-end mt-16 hover:shadow-lg hover:bg-blue-400 hover:text-white" >Book now</button>
+        <button class="border-2 border-blue-400 rounded-md p-2 w-1/4 self-end mt-16 hover:shadow-lg hover:bg-blue-400 hover:text-white duration-150" >Book now</button>
         
         </div>
         

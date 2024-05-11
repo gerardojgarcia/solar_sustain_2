@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="hero grid place-items-center py-32   " >
+    <div class="hero grid place-items-center py-32  h-[75vh] " >
         <div class="heading  grid place-items-center  ">
             <h1 class="text-5xl mx-96 m-auto ">Shine Brighter with <strong class="text-yellow-400">Premium Solar Care</strong></h1>
             <p class="subheading px-32">Extend the life and efficiency of your solar investment with expert maintenance and real-time support.</p>

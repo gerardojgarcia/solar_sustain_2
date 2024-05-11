@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="grid grid-cols-2 dark:text-white  dark:bg-black place-items-center">
+    <section id="about" class="grid grid-cols-2 dark:text-white  dark:bg-black place-items-center">
     <div class="p-8">
         <h2 class="text-5xl mb-6">Solar panels are a significant investment in your sustainable future</h2>
         <p class="text-2xl pr-52 mb-4">Keeping them clean and well-maintained is crucial not only for maximum efficiency but also for ensuring their longevity.</p>
@@ -16,5 +16,5 @@
     <img src="/solar_sustain_1.webp" alt="Image of men doig maintenance on solar panels" class="rounded-md" height="600px"  />
     </div>
         
-    </div>
+    </section>
 </template>

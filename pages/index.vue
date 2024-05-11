@@ -7,6 +7,7 @@
         <TheHeader/>
         <TheHero/>
         <TheAboutSection/>
+        <TheProcess/>
         <TheServicesSection/>
         <ThePriceCards/>
         <AppBanner/>
