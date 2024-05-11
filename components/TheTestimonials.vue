@@ -41,12 +41,12 @@ const testimonials = [
 
 </script>
 <template>
-    <div class="py-24 dark:bg-black  flex flex-col items-center justify-center">
+    <div class="py-24  dark:bg-black  flex flex-col items-center justify-center">
         <h4 class="text-5xl mb-16 w-[35vw] self-center">We're making everyday <span class="text-yellow-400">brighter</span> for our customers</h4>
         <div class="testimonial-container grid grid-cols-3 gap-4 mx-44">
 
 
-            <div class="testimonial-card p-6 border-2 hover:border-blue-200 hover:border-4 duration-200 ease-in border-blue-400 rounded-lg bg-gray-900 " v-for="testimonial in testimonials" :key="testimonial.id">
+            <div class="testimonial-card p-6 border-2 dark:hover:border-blue-200 hover:border-blue-600 duration-200 ease-in border-blue-400 rounded-lg dark:bg-gray-900 hover:shadow-lg" v-for="testimonial in testimonials" :key="testimonial.id">
 
 
                 <p class="quote text-lg">"{{testimonial.quote}}"</p>
@@ -55,7 +55,7 @@ const testimonials = [
                     <img :src="testimonial.image" class="mr-6 " width="50px" alt="image of person">
                     <div>
                         <p class="name font-bold text-lg">{{ testimonial.name }}</p>
-                        <p class="location text-gray-300">{{ testimonial.location }}</p>
+                        <p class="location text-gray-500 dark:text-gray-300">{{ testimonial.location }}</p>
                     </div>
 
 
