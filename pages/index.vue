@@ -12,5 +12,6 @@
         <ThePriceCards/>
         <AppBanner/>
         <TheTestimonials/>
+        <TheFooter/>
     </div>
 </template>
