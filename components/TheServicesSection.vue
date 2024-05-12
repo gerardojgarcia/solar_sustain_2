@@ -4,8 +4,8 @@
 
 <template>
      <section id="services" class="grid grid-cols-2  dark:text-white dark:bg-black ">
-        <div class="grid place-items-center">
-    <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-md p-32" height="600px"  />
+        <div class="grid place-items-center rounded-lg">
+    <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-lg p-32" height="600px"  />
     </div>
     <div class="p-8 ">
         <h2 class="text-4xl mb-6">Comprehensive Solar Panel Services     </h2>
