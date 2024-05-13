@@ -4,10 +4,10 @@
 
 <template>
      <section id="services" class="grid grid-cols-2  dark:text-white dark:bg-black ">
-        <div class="grid place-items-center rounded-lg">
+        <div class="grid place-items-center rounded-lg" data-aos="fade-right">
     <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-lg p-32" height="600px"  />
     </div>
-    <div class="p-8 ">
+    <div class="p-8 " data-aos="fade-left">
         <h2 class="text-4xl mb-6">Comprehensive Solar Panel Services     </h2>
         <p class="text-2xl ">Keep your solar panels performing at their peak with SolarSustain's expert cleaning and maintenance services. Whether you're looking for a one-time clean or ongoing care, we have flexible options tailored to your needs.</p>
             <div class="mt-8">

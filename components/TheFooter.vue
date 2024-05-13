@@ -36,7 +36,7 @@
         <span class="font-semibold">Subscribe to our newsletter</span>
         <p>Stay updated on new releases and features, guides, and community updates.</p>
         <form class="flex mt-2">
-            <input type="email" placeholder="you@domain.com" class="p-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-300 flex-grow"/>
+            <input type="email" placeholder="you@domain.com" class="p-2 rounded-l-md ring-2 ring-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-300 flex-grow"/>
           <button class="bg-blue-600 px-4 py-2 rounded-r-md hover:bg-blue-700">Subscribe</button>
         </form>
       </div>
