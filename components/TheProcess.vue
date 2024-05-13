@@ -18,11 +18,13 @@
 </div>
 <div class="process-card grid grid-cols-2 mx-32  items-center space-y-6" data-aos="fade-up">
     <img src="/solar_sustain_3.webp" height="500px" width="600px" class="rounded-lg">
-    <div class="flex flex-col ">
+    <div class="flex flex-col place-items-end  ">
         
-        <Icon name="ph:number-circle-two" class="text-[5rem]"/>
-        <strong class="text-2xl">Expert Care On-Site</strong>
-        <p class="process-description w-1/2" >Our professional team will visit your property to conduct a thorough assessment of your solar panel system. We'll identify any issues and perform necessary cleaning and maintenance tasks using the latest techniques and equipment. Our goal is to ensure your panels are operating at their peak efficiency.</p>
+        <div class="flex flex-col  w-1/2 ">
+            <Icon name="ph:number-circle-two" class="text-[5rem]"/>
+            <strong class="text-2xl">Expert Care On-Site</strong>
+            <p class="process-description " >Our professional team will visit your property to conduct a thorough assessment of your solar panel system. We'll identify any issues and perform necessary cleaning and maintenance tasks using the latest techniques and equipment. Our goal is to ensure your panels are operating at their peak efficiency.</p>
+        </div>
     </div>
 </div>
 <div class="process-card grid grid-cols-2 mx-32 items-center space-y-6" data-aos="fade-up">
