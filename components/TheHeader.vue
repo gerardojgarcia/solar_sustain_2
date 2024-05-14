@@ -5,7 +5,7 @@
 
     <div>
 
-        <header class="w-full  p-4flex justify-evenly">
+        <header class="w-full  p-4 flex justify-evenly">
 
         <img src="/" alt="logo">
 
@@ -18,6 +18,7 @@
             <NuxtLink to="/" class="hover:text-blue-400" >Contact</NuxtLink>
 
         </nav>
+        <NuxtLink to="quote" class="hero-quote bg-blue-400 hover:bg-blue-200 hover:text-black p-2 rounded-md">Get A Free Quote</NuxtLink>
         </header>
     </div>
 </template>

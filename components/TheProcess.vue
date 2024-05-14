@@ -8,7 +8,7 @@
 
 <div class="process-container container m-auto space-y-16 ">
 
-<div class="process-card grid grid-cols-2 mx-32 items-center space-y-6  " data-aos="fade-up">
+<div class="process-card grid grid-cols-2 m-32 items-center space-y-6  " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
 <div class="flex flex-col">
     <Icon name="ph:number-circle-one" class="text-[5rem]"/>
     <strong class="text-2xl">Schedule at your convenience</strong>
@@ -16,7 +16,7 @@
     </div>
     <img src="/solar_sustain_booking.webp" height="500px" width="600px" class="rounded-lg">
 </div>
-<div class="process-card grid grid-cols-2 mx-32  items-center space-y-6" data-aos="fade-up">
+<div class="process-card grid grid-cols-2 mx-32  items-center space-y-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
     <img src="/solar_sustain_3.webp" height="500px" width="600px" class="rounded-lg">
     <div class="flex flex-col place-items-end  ">
         
@@ -27,7 +27,7 @@
         </div>
     </div>
 </div>
-<div class="process-card grid grid-cols-2 mx-32 items-center space-y-6" data-aos="fade-up">
+<div class="process-card grid grid-cols-2 mx-32 items-center space-y-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
 
     <div class="flex flex-col">
         <Icon name="ph:number-circle-three" class="text-[5rem]"/>
