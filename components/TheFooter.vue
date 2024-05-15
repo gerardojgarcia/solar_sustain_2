@@ -9,17 +9,16 @@
         <span class="font-semibold">Community</span>
         <a href="#" class="hover:underline">Solar Panels</a>
         <a href="#" class="hover:underline">SolarSustain on Youtube</a>
-        <a href="#" class="hover:underline">Terms</a>
-        <a href="#" class="hover:underline">Design Kit</a>
+        <a href="#" class="hover:underline">Start a Franchise</a>
       </div>
       
       <!-- Enterprise Column -->
       <div class="flex flex-col space-y-2">
         <span class="font-semibold">Enterprise</span>
-        <a href="#" class="hover:underline">Support</a>
-        <a href="#" class="hover:underline">FAQS</a>
-        <a href="#" class="hover:underline">Jobs</a>
-        <a href="#" class="hover:underline">Terms&Conditions</a>
+        <a href="/support" class="hover:underline">Support</a>
+        <a href="/faqs" class="hover:underline">FAQS</a>
+        <a href="/jobs" class="hover:underline">Jobs</a>
+        <a href="/terms" class="hover:underline">Terms&Conditions</a>
       </div>
       
       <!-- Solutions Column -->
