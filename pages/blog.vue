@@ -2,8 +2,13 @@
 
 </script>
 <template>
-    <div>
-        <h1>Blog Page</h1>
-        <NuxtPage/>
+     <div class="dark:bg-black py-16 dark:text-white">
+        <TheHeader/>
+
+        <div class="py-32 dar:text-white">
+            <h1 class="text-5xl">Terms & Conditions</h1>
+        </div>
+
+        <TheFooter/>
     </div>
 </template>

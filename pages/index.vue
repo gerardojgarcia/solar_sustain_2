@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="dark:bg-black h-screen dark:text-white scroll-smooth overflow-hidden">
+    <div class="dark:bg-black h-screen dark:text-white scroll-smooth ">
         <TheHeader/>
         <TheHero/>
         <TheAboutSection/>
