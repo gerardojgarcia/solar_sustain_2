@@ -4,9 +4,10 @@
 <template>
      <div class="dark:bg-black py-16 dark:text-white">
         <TheHeader/>
+        <AppSubpageHero title="FAQs"/>
 
-        <div class="py-32 dar:text-white">
-            <h1 class="text-5xl">Terms & Conditions</h1>
+        <div class="p-32 dar:text-white">
+            <h1 class="text-5xl">FAQs</h1>
         </div>
 
         <TheFooter/>

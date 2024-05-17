@@ -4,6 +4,7 @@
 <template>
      <section class="dark:bg-black py-16 dark:text-white">
         <TheHeader/>
+        <AppSubpageHero title="Jobs"/>
 
         <div class="container p-32 dark:text-white">
             <h1 class="text-5xl mb-16">Join the SolarSustain Team</h1>

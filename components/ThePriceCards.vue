@@ -59,10 +59,10 @@ const cards = ref([
     </div>
 
 
-    <div class="grid grid-cols-3 gap-4 mt-24" >
+    <div class="grid grid-cols-3 gap-4 mt-24 px-16" >
 
     <!-- Price Card -->
-        <div class="price-card p-8 mx-10 rounded-lg dark:bg-gray-900 border-2 hover:border-blue-600 dark:hover:border-blue-200 duration-150 ease-in dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id" data-aos="fade-up">
+        <div class="price-card p-8 px-10 rounded-lg dark:bg-gray-900 border-2 hover:border-blue-600 dark:hover:border-blue-200 duration-150 ease-in dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id" data-aos="fade-up">
         <p class="pre-title text-lg">{{card.pretitle}}</p>
         <p class="card-title text-4xl font-bold py-2">{{card.title}} </p>
         <p class="card-description text-xl">{{card.description}}</p>

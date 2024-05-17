@@ -4,11 +4,12 @@
 <template>
      <div class="dark:bg-black py-16 dark:text-white">
         <TheHeader/>
+        <AppSubpageHero  title="Customer Service & Support"/>
 
-        <div class="py-32 dark:text-white">
-            <h1 class="text-5xl">Customer Service & Support</h1>
+        <div class="p-32 dark:text-white">
+
             <div class="terms-box container m-auto  space-y-8">
-                <p>Your satisfaction and the optimal performance of your solar panels are our top priorities at SolarSustain. Whether you need help scheduling a service, have questions about our maintenance plans, or require technical support, our dedicated team is here to assist you every step of the way.</p>
+                <p class="text-3xl px-32">Your satisfaction and the optimal performance of your solar panels are our top priorities at SolarSustain. Whether you need help scheduling a service, have questions about our maintenance plans, or require technical support, our dedicated team is here to assist you every step of the way.</p>
 
                 <h2 class="text-4xl">Get in touch at your convenience</h2>
                 <!--Suppport info-->

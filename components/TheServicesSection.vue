@@ -3,7 +3,7 @@
 </script>
 
 <template>
-     <section id="services" class="grid grid-cols-2  dark:text-white dark:bg-black ">
+     <section id="services" class="grid grid-cols-2 place-items-center dark:text-white dark:bg-black ">
         <div class="grid place-items-center rounded-lg" data-aos="fade-right">
     <img src="/solar_sustain_2.webp" alt="Image of men doig maintenance on solar panels" class="rounded-lg p-32" height="600px"  />
     </div>
