@@ -52,7 +52,7 @@ const testimonials = [
                 <p class="quote text-lg">"{{testimonial.quote}}"</p>
                 <div class="person flex flex-col md:flex-row items-center  mt-4">
 
-                    <img :src="testimonial.image" class="mr-6 " width="50px" alt="image of person">
+                   <!-- <img :src="testimonial.image" class="mr-6 " width="50px" alt="image of person">-->
                     <div>
                         <p class="name font-bold text-lg">{{ testimonial.name }}</p>
                         <p class="location text-gray-500 dark:text-gray-300">{{ testimonial.location }}</p>
