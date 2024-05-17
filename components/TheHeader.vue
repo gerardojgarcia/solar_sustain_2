@@ -7,7 +7,7 @@
 
         <header class="w-full  p-4 flex justify-evenly">
 
-        <img src="/" alt="logo">
+        <img src="/" alt="SolarSustain">
 
 
         <!-- Main Navigation -->
