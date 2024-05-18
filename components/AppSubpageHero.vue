@@ -6,9 +6,9 @@ defineProps({
 
 </script>
 <template>
-    <div class="hero grid place-items-center py-32  h-[75vh]" >
+    <div class="hero grid place-items-center py-32  h-[75vh] text-black" >
         <div class="heading w-1/2 flex flex-col items-center bg-opacity-85 rounded-lg py-6 bg-white ">
-            <h1 class="text-5xl text-center m-auto  px-12">{{title}}</h1>
+            <h1 class="text-5xl text-center m-auto text-black  px-12">{{title}}</h1>
             
         </div>
         
