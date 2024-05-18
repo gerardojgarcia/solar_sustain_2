@@ -4,7 +4,7 @@
 <template>
      <div class="dark:bg-black py-16 dark:text-white">
         <TheHeader/>
-        <AppSubpageHero  title="Customer Service & Support"/>
+        <AppSubpageHero title="Customer Service & Support"/>
 
         <div class="p-32 dark:text-white">
 
