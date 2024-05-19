@@ -6,9 +6,9 @@
         <TheHeader/>
         <AppSubpageHero title="FAQs"/>
 
-        <div class="p-32 dark:text-white">
+        <div class="p-32 dark:text-white space-y-8">
             <h1 class="text-5xl">FAQs</h1>
-            <p class="intro">Have questions about our solar panel maintenance services? We've got answers! Below you'll find the most frequently asked questions from our clients. If you don't find what you're looking for, feel free to contact us directly.</p>
+            <p class="intro text-2xl">Have questions about our solar panel maintenance services? We've got answers! Below you'll find the most frequently asked questions from our clients. If you don't find what you're looking for, feel free to contact us directly.</p>
 
             <div class="faq-grid grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="faq">
