@@ -1,15 +1,13 @@
-<script setup>
-
-</script>
+<script setup></script>
 <template>
-     <div class="dark:bg-black py-16 dark:text-white">
-        <TheHeader/>
-        <AppSubpageHero title="Blog"/>
+  <div class="dark:bg-black h-screen dark:text-white">
+    <TheHeader />
 
-        <div class="py-32 dar:text-white">
-            <h1 class="text-5xl">Bog</h1>
-        </div>
-
-        <TheFooter/>
+    <div class="flex overflow-y-auto py-8">
+      <AppBlogSideNav class="absolute w-52" />
+      <NuxtPage class="ml-52 h-[60vh]" />
     </div>
+
+    <TheFooter />
+  </div>
 </template>
