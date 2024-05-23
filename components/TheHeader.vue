@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div>
-    <header class="p-4 flex justify-evenly">
+    <header class="p-4 flex justify-evenly items-center">
       <img src="/" alt="SolarSustain" />
 
       <!-- Main Navigation -->
