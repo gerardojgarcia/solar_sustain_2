@@ -16,7 +16,7 @@
       class="button-container bg-white bg-opacity-85 px-4 rounded-lg justify-between py-4 mt-16 flex w-1/4"
     >
       <NuxtLink
-        to="support"
+        to="quote"
         class="hero-quote bg-blue-400 hover:bg-blue-300 hover:text-black p-2 rounded-md duration-150"
         >Get A Free Quote</NuxtLink
       >
