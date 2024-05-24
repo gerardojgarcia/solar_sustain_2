@@ -3,13 +3,13 @@
 <template>
   <section
     id="services"
-    class="grid grid-cols-2 place-items-center dark:text-white dark:bg-black"
+    class="grid md:grid-cols-2 place-items-center dark:text-white dark:bg-black"
   >
     <div class="grid place-items-center rounded-lg" data-aos="fade-right">
       <img
         src="/solar_sustain_2.webp"
         alt="Image of men doig maintenance on solar panels"
-        class="rounded-lg p-32"
+        class="rounded-lg p-4 md:p-32"
         height="600px"
       />
     </div>
@@ -44,7 +44,7 @@
           output and extending the lifespan of your system.
         </p>
       </div>
-      <div class="button-container justify-between py-8 flex w-3/4">
+      <div class="button-container justify-between py-8 flex md:w-3/4">
         <NuxtLink
           to="quote"
           class="hero-quote bg-blue-400 p-2 rounded-md hover:bg-blue-300 dark:text-white hover:text-black duration-150"

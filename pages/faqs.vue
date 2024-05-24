@@ -6,7 +6,7 @@
         <TheHeader/>
         <AppSubpageHero title="FAQs"/>
 
-        <div class="p-32 dark:text-white space-y-8">
+        <div class="p-4 md:p-32 dark:text-white space-y-8">
             <h1 class="text-5xl">FAQs</h1>
             <p class="intro text-2xl">Have questions about our solar panel maintenance services? We've got answers! Below you'll find the most frequently asked questions from our clients. If you don't find what you're looking for, feel free to contact us directly.</p>
 
@@ -51,7 +51,7 @@
                 </div>
         </div>
 
-        <p class="conclusion mx-32 text-3xl font-bold mt-16">Don't see your question here? Our customer service team is ready to help. Contact us anytime for more information about SolarSustain's services and how we can help keep your solar panels performing at their best.</p>
+        <p class="conclusion md:mx-32 text-3xl font-bold mt-16">Don't see your question here? Our customer service team is ready to help. Contact us anytime for more information about SolarSustain's services and how we can help keep your solar panels performing at their best.</p>
 </div>
         <TheFooter/>
     </div>

@@ -1,19 +1,19 @@
 <script setup></script>
 <template>
-  <div class="hero grid place-items-center py-32 h-screen">
+  <div class="hero grid place-items-center md:py-32 h-screen">
     <div
-      class="heading w-1/2 flex flex-col items-center bg-opacity-85 rounded-lg py-6 bg-white"
+      class="heading md:w-1/2 flex flex-col items-center bg-opacity-85 rounded-lg py-6 bg-white"
     >
-      <h1 class="text-5xl text-center m-auto mb-8 px-12 dark:text-black">
+      <h1 class="text-5xl text-center m-auto mb-8 md:px-12 dark:text-black">
         Shine Brighter with <strong class="text-yellow-400">Premium Solar Care</strong>
       </h1>
-      <p class="subheading text-center text-2xl px-32 dark:text-black">
+      <p class="subheading text-center text-2xl md:px-32 dark:text-black">
         Extend the life and efficiency of your solar investment with expert maintenance
         and real-time support
       </p>
     </div>
     <div
-      class="button-container bg-white bg-opacity-85 px-4 rounded-lg justify-between py-4 mt-16 flex w-1/4"
+      class="button-container bg-white bg-opacity-85 px-4 rounded-lg justify-between py-4 mt-16 flex flex-col md:flex-row md:w-1/4"
     >
       <NuxtLink
         to="quote"

@@ -8,11 +8,11 @@ const subscription = ref(false);
 const quoteTotal = computed(() => {
   let total = 0;
   if (solarPanelCount.value <= 10) {
-    total = solarPanelCount.value * 50;
+    total = solarPanelCount.value * 45;
   } else if (solarPanelCount.value <= 16) {
-    total = solarPanelCount.value * 48;
-  } else {
     total = solarPanelCount.value * 42;
+  } else {
+    total = solarPanelCount.value * 39;
   }
 
   if (birdProofing.value) {
@@ -37,7 +37,7 @@ const quoteTotal = computed(() => {
         Get a quote book your solar panel cleaning in less than 60 seconds!
       </p>
 
-      <div class="quote-container p-32 border-2 rounded-lg">
+      <div class="quote-container p-4 md:p-32 border-2 rounded-lg">
         <form class="booking-form flex flex-col self-center space-y-6">
             <div class="form-group">
                 <label for="name">Name:</label>

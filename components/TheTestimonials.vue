@@ -42,8 +42,8 @@ const testimonials = [
 </script>
 <template>
     <div class="py-24  dark:bg-black  flex flex-col items-center justify-center">
-        <h4 class="text-5xl mb-16 w-[35vw] self-center">We're making everyday <span class="text-yellow-400">brighter</span> for our customers</h4>
-        <div class="testimonial-container grid grid-cols-3 gap-4 mx-44">
+        <h4 class="text-5xl mb-16 px-4 md:w-[35vw] self-center">We're making everyday <span class="text-yellow-400">brighter</span> for our customers</h4>
+        <div class="testimonial-container grid md:grid-cols-3 gap-4 md:mx-44 mx-4">
 
 
             <div class="testimonial-card p-6 border-2 dark:hover:border-blue-200 hover:border-blue-600 duration-200 ease-in border-blue-400 rounded-lg dark:bg-gray-900 hover:shadow-lg" v-for="testimonial in testimonials" :key="testimonial.id">

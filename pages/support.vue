@@ -6,10 +6,10 @@
         <TheHeader/>
         <AppSubpageHero title="Customer Service & Support"/>
 
-        <div class="p-32 dark:text-white">
+        <div class="p-4 md:p-32 dark:text-white">
 
-            <div class="terms-box container m-auto grid grid-cols-2 space-y-8">
-                <p class="text-3xl px-32">Your satisfaction and the optimal performance of your solar panels are our top priorities at SolarSustain. Whether you need help scheduling a service, have questions about our maintenance plans, or require technical support, our dedicated team is here to assist you every step of the way.</p>
+            <div class="terms-box container m-auto grid md:grid-cols-2 space-y-8">
+                <p class="text-3xl px-4 md:px-32">Your satisfaction and the optimal performance of your solar panels are our top priorities at SolarSustain. Whether you need help scheduling a service, have questions about our maintenance plans, or require technical support, our dedicated team is here to assist you every step of the way.</p>
 
                 <h2 class="text-4xl">Get in touch at your convenience</h2>
                 <!--Suppport info-->

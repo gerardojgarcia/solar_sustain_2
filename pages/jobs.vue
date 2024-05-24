@@ -4,7 +4,7 @@
     <TheHeader />
     <AppSubpageHero title="Jobs" />
 
-    <div class="container p-32 dark:text-white">
+    <div class="container p-4 md:p-32 dark:text-white">
       <h1 class="text-5xl mb-16">Join the SolarSustain Team</h1>
       <div class="pb-8 text-2xl px-32">
         <p class="job-subheading">
@@ -17,7 +17,7 @@
       <h2 class="text-4xl mb-8">Job Opportunities:</h2>
 
       <!--Job Post-->
-      <div class="px-32 space-y-4 mb-16">
+      <div class="md:px-32 space-y-4 mb-16">
         <strong class="text-3xl mb-8">1. Solar Panel Maintenance Technician</strong>
         <p class="font-bold text-2xl">Start Your Career in Solar Energy</p>
         <p class="text-xl">
@@ -57,7 +57,7 @@
       </div>
 
       <!--Job Post-->
-      <div class="px-32 space-y-4">
+      <div class="md:px-32 space-y-4">
         <strong class="text-3xl mb-8">2. Customer Service Representative</strong>
         <p class="font-bold text-2xl">Be the Voice of SolarSustain</p>
         <p class="text-xl">
