@@ -16,7 +16,7 @@ const quoteTotal = computed(() => {
   }
 
   if (birdProofing.value) {
-    total += 50; // Add the cost of bird-proofing
+    total += (solarPanelCount.value * 10); // Add the cost of bird-proofing
   }
 
   if (subscription.value) {
@@ -47,6 +47,7 @@ const quoteTotal = computed(() => {
                 v-model="customerName"
                 class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
                 required
+                placeholder="Your Name"
                 />  
             </div>
        
@@ -82,6 +83,7 @@ const quoteTotal = computed(() => {
                 v-model="customerZipCode"
                 class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
                 required
+                placeholder="Your Zip Code"
             />
         </div>
           <div class="form-group">
@@ -104,8 +106,8 @@ const quoteTotal = computed(() => {
             />
           </div>
 
-          <div class="form-group space-y-4">
-            <strong for="additional-services">Additional Services:</strong>
+          <div class="form-group space-y-8">
+            <strong  class="text-3xl">Additional Services:</strong>
             <div class="flex">
               <div class="form-group flex flex-col items-center w-1/2">
                 <Icon name="ri:shield-check-line" class="text-5xl" />
@@ -130,8 +132,8 @@ const quoteTotal = computed(() => {
             </div>
           </div>
           <div class="form-group">
-            <p>{{ solarPanelCount }} panels</p>
-            <p v-if="birdProofing == true">Bird-proofing: $50</p>
+            <p class="text-lg">{{ solarPanelCount }} panels</p>
+            <p v-if="birdProofing == true" class="text-lg">Bird-proofing: ${{ solarPanelCount * 10 }}</p>
 
 
           </div>
