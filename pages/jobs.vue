@@ -4,7 +4,7 @@
     <TheHeader />
     <AppSubpageHero title="Jobs" />
 
-    <div class="container p-4 md:p-32 dark:text-white">
+   <div class=" p-4 md:p-32 dark:text-white">
       <h1 class="text-5xl mb-16">Join the SolarSustain Team</h1>
       <div class="pb-8 text-2xl px-32">
         <p class="job-subheading">
