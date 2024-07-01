@@ -1,4 +1,8 @@
 <script setup>
+useHead({
+    title: "Top 10 Professional Solar Panel Cleaning Companies",
+});
+
 const companies = [
     {
         name: "Solar Shine Cleaning Services",
