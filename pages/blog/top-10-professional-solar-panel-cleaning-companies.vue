@@ -1,6 +1,8 @@
 <script setup>
 useHead({
     title: "Top 10 Professional Solar Panel Cleaning Companies",
+    description:
+        "Find the best solar panel cleaning service in San Bernardino County",
 });
 
 const companies = [
@@ -135,14 +137,13 @@ const companies = [
         </h1>
 
         <img
-            src="https://example.com/solar-panel-cleaning.jpg"
+            src="/solar_sustain_2.webp"
             alt="Solar Panel Cleaning"
-            class="mb-6 w-full h-auto rounded"
+            class="mb-6 w-1/2 h-auto m-auto rounded"
         />
 
         <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Introduction</h2>
-            <p class="text-gray-700 mb-4">
+            <p class="text-gray-700 text-2xl w-3/4 py-8 mb-4 m-auto">
                 San Bernardino County, with its abundant sunshine, is an ideal
                 location for solar energy systems. To ensure these systems
                 operate at peak efficiency, regular cleaning is essential. Dust,
@@ -171,7 +172,6 @@ const companies = [
         </section>
 
         <section>
-            <h2 class="text-2xl font-bold mb-4">Conclusion</h2>
             <p class="text-gray-700">
                 Regular cleaning and maintenance of solar panels are crucial for
                 ensuring they operate at maximum efficiency. The companies

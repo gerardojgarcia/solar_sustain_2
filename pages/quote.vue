@@ -28,7 +28,7 @@ const quoteTotal = computed(() => {
     return total.toFixed(2);
 });
 
-// Solar Panel Total Calculation
+// Solar Panel Only Total Calculation
 //
 
 const solarPanelTotal = computed(() => {
