@@ -37,6 +37,7 @@ const pages = ref([
 <template>
     <div>
         <nav class="side-nav flex flex-col">
+            <NuxtLink to="./blog-articles">back to articles</NuxtLink>
             <NuxtLink
                 :to="page.link"
                 class="hover:text-blue-400"
