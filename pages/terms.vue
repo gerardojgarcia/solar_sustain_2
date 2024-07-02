@@ -1,5 +1,8 @@
 <script setup>
-
+useHead({
+  title: "Terms & Conditions",
+description: "Terms of using our service"
+})
 
 
 </script>

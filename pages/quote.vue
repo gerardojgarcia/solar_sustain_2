@@ -1,9 +1,12 @@
 <script setup>
+
+useHead({
+  title: "SolarSustain: Get a Quote in less than 60 seconds!"
+})
+
 const solarPanelCount = ref(0);
 const birdProofing = ref(false);
 const subscription = ref(false);
-
-//
 
 //Quote  Total Calculation
 
@@ -29,7 +32,6 @@ const quoteTotal = computed(() => {
 });
 
 // Solar Panel Only Total Calculation
-//
 
 const solarPanelTotal = computed(() => {
     let total = 0;

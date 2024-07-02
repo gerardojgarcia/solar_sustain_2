@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+
+useHead({
+  title: "SolarSustain Blog",
+description: "Get information about how to enhance and protect your solar investment"
+})
+
+</script>
 <template>
     <div class="dark:bg-black h-screen dark:text-white">
         <TheHeader />

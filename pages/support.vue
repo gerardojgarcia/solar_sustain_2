@@ -1,5 +1,8 @@
 <script setup>
-
+useHead({
+  title: "Support",
+ description: "Get help with any issue or concern"
+})
 </script>
 <template>
      <div class="dark:bg-black py-16 dark:text-white">

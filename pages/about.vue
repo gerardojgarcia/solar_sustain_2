@@ -1,4 +1,10 @@
-<script setup></script>
+<script setup>
+useHead({
+  title: 'Learn about SolarSustain',
+
+description: 'Find out who we are why we do what we do'
+})
+</script>
 <template>
   <div>
     <TheHeader />

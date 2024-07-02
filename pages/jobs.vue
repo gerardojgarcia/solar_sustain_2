@@ -1,4 +1,10 @@
-<script setup></script>
+<script setup>
+
+useHead({
+  title: 'Safetree Jobs: Join Our Team!'
+})
+
+</script>
 <template>
   <section class="dark:bg-black py-16 dark:text-white">
     <TheHeader />

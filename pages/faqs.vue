@@ -1,5 +1,8 @@
 <script setup>
-
+useHead({
+  title: 'SolarSustain FAQS',
+  description: "Get answers to the most common questions about our service"
+})
 </script>
 <template>
      <div class="dark:bg-black py-16 dark:text-white">
