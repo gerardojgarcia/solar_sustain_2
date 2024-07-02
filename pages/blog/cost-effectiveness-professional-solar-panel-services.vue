@@ -179,7 +179,6 @@ useHead({
         </section>
 
         <section>
-            <h3 class="text-xl font-semibold mb-2">Conclusion</h3>
             <p>
                 The cost-effectiveness of professional solar panel cleaning
                 services in San Bernardino County, CA, is evident through
@@ -193,15 +192,9 @@ useHead({
                 panels? Explore professional solar panel cleaning services today
                 and start reaping the financial benefits.
             </p>
-            <img
-                src="https://www.example.com/contact_solar_cleaners.jpg"
-                alt="Contact Professional Solar Cleaners"
-                class="w-full h-auto mt-8"
-            />
+            <NuxtLink></NuxtLink>
         </section>
     </div>
 </template>
 
-<style scoped>
-/* TailwindCSS handles the styling */
-</style>
+<style scoped></style>

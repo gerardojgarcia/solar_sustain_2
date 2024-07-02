@@ -10,7 +10,7 @@ const subscribe = ref(false);
             <div class="flex flex-col space-y-2">
                 <span class="font-semibold">Community</span>
                 <NuxtLink
-                    to="/blog/blog-articles"
+                    to="./blog-articles"
                     class="hover:underline hover:text-blue-400"
                     >Blog</NuxtLink
                 >

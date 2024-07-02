@@ -42,10 +42,11 @@ const articles = ref([
 <template>
     <div class="w-[80vw]">
         <div
-            class="blog-article-container grid grid-cols-2 w-full place-items-center p-16 border-2 border-red gap-10"
+            class="blog-article-container grid grid-cols-2 w-full place-items-center p-16 gap-10"
         >
+            <!--blog Article -->
             <div
-                class="blog-article-card w-96 flex flex-col p-6 mt-6"
+                class="blog-article-card w-96 flex flex-col p-6 mt-6 border-2 border-yellow-300"
                 v-for="article in articles"
                 :key="article.id"
             >
@@ -62,7 +63,7 @@ const articles = ref([
                 </p>
                 <NuxtLink
                     :to="article.link"
-                    class="py-4 border-2 w-28 flex justify-center hover:bg-yellow-500 duration-150 border-yellow-500"
+                    class="py-4 self-end border-2 w-28 flex justify-center hover:bg-yellow-500 duration-150 border-yellow-500"
                     >Read More</NuxtLink
                 >
             </div>
