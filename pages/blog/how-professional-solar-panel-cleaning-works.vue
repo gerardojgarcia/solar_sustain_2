@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-    <div class="p-8 bg-gray-100 min-h-screen dark:bg-black">
+    <div class="p-8 bg-gray-100 w-full grid place-items-center min-h-screen dark:bg-black">
         <section class="mb-8">
             <h1 class="text-4xl font-bold mb-4">
                 How Professional Solar Panel Cleaning Works
@@ -22,7 +22,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Introduction</h3>
             <p>
                 With the rise of solar energy adoption in San Bernardino, CA,
                 maintaining solar panels for optimal performance has become
@@ -151,7 +150,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-                Case Study: Solar Panel Cleaning in San Bernardino
+                Solar Panel Cleaning in San Bernardino
             </h3>
             <p>
                 Consider the Hernandez family, who live in the dusty outskirts
@@ -166,7 +165,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-                Deep Dive: Techniques Tailored for San Bernardino's Climate
+                Techniques Tailored for San Bernardino's Climate
             </h3>
             <p>
                 San Bernardino’s arid and occasionally windy climate can lead to
@@ -180,7 +179,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Conclusion</h3>
             <p>
                 Professional solar panel cleaning in San Bernardino, CA,
                 involves a meticulous process that ensures your panels remain
@@ -205,5 +203,7 @@ useHead({
 </template>
 
 <style scoped>
-/* TailwindCSS handles the styling */
+section {
+@apply max-w-3xl;
+}
 </style>

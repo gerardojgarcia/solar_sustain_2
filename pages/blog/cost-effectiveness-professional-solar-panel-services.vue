@@ -5,8 +5,8 @@ useHead({
 </script>
 
 <template>
-    <div class="p-8 bg-gray-100 min-h-screen dark:bg-black">
-        <section class="mb-8">
+    <div class="p-8 bg-gray-100 w-full grid place-items-center min-h-screen dark:bg-black">
+        <section class="mb-8 max-w-3xl">
             <h1 class="text-4xl font-bold mb-4">
                 Cost-Effectiveness of Professional Solar Panel Services
             </h1>
@@ -21,7 +21,7 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Introduction</h3>
+            
             <p>
                 Investing in solar energy is a smart financial decision for many
                 homeowners in San Bernardino County, CA. However, maintaining
@@ -150,7 +150,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-                Case Study: Financial Benefits for San Bernardino Homeowners
+               Financial Benefits for San Bernardino Homeowners
             </h3>
             <p>
                 Consider the Lopez family in San Bernardino. They initially
@@ -166,7 +166,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-                Deep Dive: The Economic Impact of Clean Panels in San Bernardino
+                The Economic Impact of Clean Panels in San Bernardino
             </h3>
             <p>
                 San Bernardino County’s sunny climate is ideal for solar energy,
@@ -197,4 +197,10 @@ useHead({
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+
+section {
+@apply max-w-3xl;
+}
+</style>
