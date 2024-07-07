@@ -17,7 +17,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Introduction</h3>
             <p>
                 As more homeowners in San Bernardino County, California, turn to
                 solar energy to power their homes, maintaining these solar
@@ -131,7 +130,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-                Case Study: San Bernardino County Homeowners Reap the Benefits
+                San Bernardino County Homeowners Reap the Benefits
             </h3>
             <p>
                 Consider the Smith family from San Bernardino. After switching
@@ -145,7 +144,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-                Deep Dive: The Impact of San Bernardino County’s Climate on
+                The Impact of San Bernardino County’s Climate on
                 Solar Panels
             </h3>
             <p>
@@ -160,7 +159,6 @@ useHead({
         </section>
 
         <section>
-            <h3 class="text-xl font-semibold mb-2">Conclusion</h3>
             <p>
                 Investing in professional solar panel cleaning services in San
                 Bernardino County, California, is a wise decision. The
