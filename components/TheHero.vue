@@ -1,8 +1,8 @@
 <script setup></script>
 <template>
-  <div class="hero grid  grid-cols-2 place-items-center md:py-32 h-screen">
+  <div class="hero grid  md:grid-cols-2 place-items-center md:py-32 h-screen">
     <div
-      class="heading flex flex-col items-center bg-opacity-85 rounded-lg py-6 bg-white"
+      class="heading flex flex-col items-center py-6 "
     >
       <h1 class="text-5xl text-center m-auto mb-8 md:px-12 dark:text-black">
         Shine Brighter with <strong class="text-yellow-400">Premium Solar Care</strong>
@@ -14,7 +14,7 @@
 
 
     <div
-      class="button-container bg-opacity-85 px-4 rounded-lg justify-between py-4 mt-16 flex flex-col md:flex-row"
+      class="button-container px-4 rounded-lg justify-between py-4 mt-16 flex flex-col md:flex-row"
     >
       <NuxtLink
         to="quote"
