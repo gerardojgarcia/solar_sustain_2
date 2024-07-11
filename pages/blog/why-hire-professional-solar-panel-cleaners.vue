@@ -7,7 +7,8 @@ useHead({
 <template>
     <div class="px-16 bg-gray-100 h-screen dark:bg-black">
         <section class="mb-8">
-            <h1 class="text-4xl font-bold mb-4">
+        <img src="/solar_sustain_1.webp"></img>
+        <h1 class="text-4xl font-bold mb-4">
                 Why Hire Professional Solar Panel Cleaners?
             </h1>
             <h2 class="text-2xl">

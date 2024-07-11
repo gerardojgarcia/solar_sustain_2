@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
-    <BlogArticles />
-  </div>
+    <div data-aos="fade-up">
+        <BlogArticles />
+    </div>
 </template>
