@@ -56,10 +56,10 @@ useHead({
         While hiring professionals involves an upfront cost, it can save you
         money in the long run by maintaining the efficiency of your panels. For
         a detailed look at the financial benefits, check out our article on
-        <a
+        <NuxtLink
           href="/cost-effectiveness-professional-solar-panel-services"
           class="text-blue-500 underline"
-          >cost-effectiveness of professional solar panel services</a
+          >cost-effectiveness of professional solar panel services</NuxtLink
         >.
       </p>
     </section>
@@ -118,10 +118,10 @@ useHead({
         standards, and can provide insights into the condition of your panels,
         potentially saving you from costly repairs down the line. For a more
         detailed understanding of the process, see how
-        <a
+        <NuxtLink
           href="/how-professional-solar-panel-cleaning-works"
           class="text-blue-500 underline"
-          >professional solar panel cleaning works</a
+          >professional solar panel cleaning works</NuxtLink
         >.
       </p>
     </section>
@@ -134,10 +134,10 @@ useHead({
         Bernardino. For optimal performance and peace of mind, consider hiring
         professionals who can keep your panels in top shape. To learn more about
         the benefits of professional cleaning, visit our page on
-        <a
+        <NuxtLink
           href="/why-hire-professional-solar-panel-cleaners"
           class="text-blue-500 underline"
-          >why hire professional solar panel cleaners</a
+          >why hire professional solar panel cleaners</NuxtLink
         >.
       </p>
     </section>
@@ -146,7 +146,9 @@ useHead({
       <p>
         Ready to maximize your solar panels' efficiency? Get a quote from our
         professional cleaning services today! Visit our
-        <a href="./quote" class="text-blue-500 underline">quote page</a>
+        <NuxtLink href="/quote" class="text-blue-500 underline"
+          >quote page</NuxtLink
+        >
         and ensure your solar investment is well-protected and performing at its
         best.
       </p>

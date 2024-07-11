@@ -43,7 +43,6 @@ const pages = ref([
     title: "DIY vs Professional Solar Panel Cleaning Services",
     description: "An overview of the typical service features and processes.",
     link: "/blog/professional-vs-diy-solar-panel-cleaning",
-    image: "/solar_sustain_2.webp",
   },
 ]);
 </script>

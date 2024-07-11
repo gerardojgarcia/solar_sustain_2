@@ -194,7 +194,7 @@ useHead({
                 firsthand.
             </p>
             <img
-                src="https://www.example.com/contact_solar_cleaners.jpg"
+                src="/solar_sustain_1.webp"
                 alt="Contact Professional Solar Cleaners"
                 class="w-full h-auto mt-8"
             />
@@ -204,6 +204,6 @@ useHead({
 
 <style scoped>
 section {
-@apply max-w-3xl;
+    @apply max-w-3xl;
 }
 </style>

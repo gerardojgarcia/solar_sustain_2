@@ -16,12 +16,12 @@
             >
                 <NuxtLink
                     to="quote"
-                    class="hero-quote bg-blue-400 md:mr-4 hover:bg-blue-300 hover:text-black p-2 rounded-md duration-150 dark:text-white""
+                    class="hero-quote bg-blue-400 md:mr-4 hover:bg-blue-300 hover:text-black p-2 rounded-md duration-150 dark:text-white"
                     >Get A Free Quote</NuxtLink
                 >
                 <NuxtLink
                     to="#services"
-                    class="hero-quote p-2 border-2 border-gray-400 rounded-md hover:bg-yellow-300 text-black hover:border-yellow-300 duration-150 dark:text-white""
+                    class="hero-quote p-2 border-2 border-gray-400 rounded-md hover:bg-yellow-300 text-black hover:border-yellow-300 duration-150 dark:text-white"
                     >Explore Our Services</NuxtLink
                 >
             </div>
