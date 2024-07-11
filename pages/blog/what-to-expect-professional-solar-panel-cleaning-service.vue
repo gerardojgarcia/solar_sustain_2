@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+useHead({
+    title: " What to expect during a professional solar panel cleaning service",
+});
+</script>
 
 <template>
     <div class="solar-panel-cleaning p-6">
