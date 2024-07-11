@@ -32,6 +32,13 @@ const pages = ref([
             "Analysis of the financial benefits of using professional cleaning services.",
         link: "/blog/top-10-professional-solar-panel-cleaning-companies",
     },
+    {
+        id: 5,
+        title: "What to Expect from a Professional Solar Panel Cleaning Service",
+        description:
+            "An overview of the typical service features and processes.",
+        link: "/blog/what-to-expect-professional-solar-panel-cleaning-service",
+    },
 ]);
 </script>
 <template>

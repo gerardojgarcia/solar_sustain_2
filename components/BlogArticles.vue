@@ -36,6 +36,14 @@ const articles = ref([
         link: "/blog/top-10-professional-solar-panel-cleaning-companies",
         image: "/solar_sustain_2.webp",
     },
+    {
+        id: 5,
+        title: "What to Expect from a Professional Solar Panel Cleaning Service",
+        description:
+            "An overview of the typical service features and processes.",
+        link: "/blog/what-to-expect-professional-solar-panel-cleaning-service",
+        image: "/solar_sustain_3.webp",
+    },
 ]);
 </script>
 
