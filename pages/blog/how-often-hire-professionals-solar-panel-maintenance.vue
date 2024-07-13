@@ -1,23 +1,23 @@
-<script setup></script>
+<script setup>
+useHead({
+    title: "How Often should you Schedule Professional Maintenance",
+    description:
+        "This article provides guidelines on the frequency of professional maintenance services for solar panels, specifically tailored for residents in San Bernardino County. It also highlights the importance of hiring professionals and what to expect during a professional solar panel cleaning service.",
+});
+</script>
 <template>
     <div class="container mx-auto p-6 text-white bg-gray-900">
         <img
-            src="/solar_sustain_1.jpg"
+            src="/solar_sustain_1.webp"
             alt="A professional technician cleaning solar panels on a rooftop under a clear sky"
             class="w-full h-auto mb-6"
         />
 
-        <section class="description mb-10">
-            <p>
-                This article provides guidelines on the frequency of
-                professional maintenance services for solar panels, specifically
-                tailored for residents in San Bernardino County. It also
-                highlights the importance of hiring professionals and what to
-                expect during a professional solar panel cleaning service.
-            </p>
-        </section>
-
         <section class="introduction mb-10">
+            <h1 class="text-3xl font-bold mb-8">
+                How often should you schedule Professional Solar Panel
+                Maintenance
+            </h1>
             <p>
                 Solar panels are a fantastic investment for both your wallet and
                 the environment. They provide clean energy and can significantly
@@ -32,9 +32,6 @@
         </section>
 
         <section class="schedule-maintenance mb-10">
-            <h2 class="text-3xl font-bold mb-6">
-                How Often Should You Schedule Professional Maintenance?
-            </h2>
             <p class="mb-4">
                 Maintaining your solar panels is crucial to ensure they operate
                 at maximum efficiency. While solar panels are relatively low
@@ -89,9 +86,11 @@
             <p>
                 For a deeper dive into the advantages of professional cleaning
                 services, check out
-                <a href="#" class="text-blue-400"
-                    >Why Hire Professional Solar Panel Cleaners</a
-                >.
+                <NuxtLink
+                    to="/why-hire-professional-solar-pane-cleaners"
+                    class="text-blue-400"
+                >
+                </NuxtLink>
             </p>
         </section>
 
@@ -166,10 +165,9 @@
                 benefits of your solar investment.
             </p>
             <p class="font-semibold">
-                Call to Action: Ready to schedule your next solar panel
-                cleaning? Contact one of the top-rated professional cleaning
-                companies in San Bernardino County today to keep your system in
-                top shape.
+                Ready to schedule your next solar panel cleaning? Contact one of
+                the top-rated professional cleaning companies in San Bernardino
+                County today to keep your system in top shape.
             </p>
         </section>
     </div>
