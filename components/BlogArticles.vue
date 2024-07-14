@@ -63,6 +63,15 @@ const articles = ref([
         link: "/blog/how-often-hire-professionals-solar-panel-maintenance",
         image: "/solar_sustain_2.webp",
     },
+    {
+        id: 8,
+        title: "Safety Advantages of Professional Solar Panel Cleaning",
+        date: "07-11-2024",
+        description:
+            "Discussing the safety benefits of hiring professional cleaners.",
+        link: "/blog/safety-advantages-professional-solar-panel-cleaning",
+        image: "/solar_sustain_man_on_roof.webp",
+    },
 ]);
 </script>
 

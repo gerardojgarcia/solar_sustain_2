@@ -53,6 +53,13 @@ const pages = ref([
             "Guidelines on the frequency of professional maintenance services.",
         link: "/blog/how-often-hire-professionals-solar-panel-maintenance",
     },
+    {
+        id: 8,
+        title: "Safety Advantages of Professional Solar Panel Cleaning",
+        description:
+            "Discussing the safety benefits of hiring professional cleaners.",
+        link: "/blog/safety-advantages-professional-solar-panel-cleaning",
+    },
 ]);
 </script>
 <template>
