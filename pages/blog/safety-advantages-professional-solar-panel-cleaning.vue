@@ -1,7 +1,13 @@
-<script setup></script>
+<script setup>
+useHead({
+    title: "Why hire professionl solar panel cleaners",
+    description:
+        "Explore the safety advantages of hiringprofessionalsfor solar panel cleaning",
+});
+</script>
 
 <template>
-    <div class="container mx-auto p-6 text-white bg-gray-900">
+    <div class="container mx-auto p-6 dark:text-white bg-gray-900">
         <img
             src="/solar_sustain_man_on_roof.webp"
             alt="A professional technician cleaning solar panels on a rooftop, equipped with safety gear and tools"
