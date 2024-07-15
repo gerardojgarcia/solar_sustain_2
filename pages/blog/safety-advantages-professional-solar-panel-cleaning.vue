@@ -125,7 +125,7 @@ useHead({
 
         <section class="case-study mb-10">
             <h2 class="text-3xl font-bold mb-6">
-                Case Study: Professional Cleaning Services in Action
+                Professional Cleaning Services in Action
             </h2>
             <p>
                 To illustrate the safety advantages of professional solar panel
@@ -142,7 +142,6 @@ useHead({
         </section>
 
         <section class="conclusion mb-10">
-            <h2 class="text-3xl font-bold mb-6">Conclusion</h2>
             <p class="mb-4">
                 The safety advantages of professional solar panel cleaning
                 cannot be overstated. From preventing falls and injuries to
@@ -153,9 +152,9 @@ useHead({
                 cleaning services.
             </p>
             <p class="font-semibold">
-                Call to Action: Don’t risk your safety or your investment.
-                Contact a professional solar panel cleaning service today to
-                keep your panels clean, efficient, and safe.
+                Don’t risk your safety or your investment. Contact a
+                professional solar panel cleaning service today to keep your
+                panels clean, efficient, and safe.
             </p>
         </section>
     </div>

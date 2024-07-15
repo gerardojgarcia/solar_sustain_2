@@ -60,12 +60,19 @@ const pages = ref([
             "Discussing the safety benefits of hiring professional cleaners.",
         link: "/blog/safety-advantages-professional-solar-panel-cleaning",
     },
+    {
+        id: 9,
+        title: "Eco-Friendly Professional Solar Panel Cleaning Services",
+        description:
+            "Highlighting green and sustainable practices used by professional services.",
+        link: "/blog/eco-friendly-professional-solar-panel-cleaning-services",
+    },
 ]);
 </script>
 <template>
     <div>
         <nav class="side-nav flex flex-col">
-            <NuxtLink to="./blog-articles">back to articles</NuxtLink>
+            <NuxtLink to="/blog/blog-articles">back to articles</NuxtLink>
             <NuxtLink
                 :to="page.link"
                 class="hover:text-blue-400"
