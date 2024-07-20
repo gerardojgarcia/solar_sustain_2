@@ -5,7 +5,9 @@ useHead({
 </script>
 
 <template>
-    <div class="p-8 bg-gray-100 w-full grid place-items-center min-h-screen dark:bg-black">
+    <div
+        class="p-8 bg-gray-100 w-full grid place-items-center min-h-screen dark:bg-black"
+    >
         <section class="mb-8 max-w-3xl">
             <h1 class="text-4xl font-bold mb-4">
                 Cost-Effectiveness of Professional Solar Panel Services
@@ -21,7 +23,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            
             <p>
                 Investing in solar energy is a smart financial decision for many
                 homeowners in San Bernardino County, CA. However, maintaining
@@ -150,7 +151,7 @@ useHead({
 
         <section class="mb-8">
             <h3 class="text-xl font-semibold mb-2">
-               Financial Benefits for San Bernardino Homeowners
+                Financial Benefits for San Bernardino Homeowners
             </h3>
             <p>
                 Consider the Lopez family in San Bernardino. They initially
@@ -192,15 +193,13 @@ useHead({
                 panels? Explore professional solar panel cleaning services today
                 and start reaping the financial benefits.
             </p>
-            <NuxtLink></NuxtLink>
+            <NuxtLink to="/quote">quote</NuxtLink>
         </section>
     </div>
 </template>
 
 <style scoped>
-
-
 section {
-@apply max-w-3xl;
+    @apply max-w-3xl;
 }
 </style>

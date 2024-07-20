@@ -130,7 +130,7 @@ const companies = [
 </script>
 
 <template>
-    <div class="p-6 mx-auto bg-white shadow-md rounded-lg">
+    <div class="p-6 mx-auto shadow-md rounded-lg">
         <h1 class="text-3xl font-bold mb-6">
             Top 10 Professional Solar Panel Cleaning Companies in San Bernardino
             County, California: A Review of the Best Services
@@ -185,3 +185,4 @@ const companies = [
         </section>
     </div>
 </template>
+<style scoped></style>

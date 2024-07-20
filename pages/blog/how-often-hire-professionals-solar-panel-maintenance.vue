@@ -87,7 +87,7 @@ useHead({
                 For a deeper dive into the advantages of professional cleaning
                 services, check out
                 <NuxtLink
-                    to="/why-hire-professional-solar-pane-cleaners"
+                    to="/blog/why-hire-professional-solar-pane-cleaners"
                     class="text-blue-400"
                 >
                 </NuxtLink>
@@ -128,7 +128,9 @@ useHead({
             <p>
                 For more insights on what to expect during a professional
                 cleaning service, read
-                <NuxtLink href="#" class="text-blue-400"
+                <NuxtLink
+                    href="/blog/what-to-expect-professional-solar-panel-cleaning-service"
+                    class="text-blue-400"
                     >What to Expect from a Professional Solar Panel Cleaning
                     Service</NuxtLink
                 >.
@@ -147,7 +149,9 @@ useHead({
             </p>
             <p class="mt-4">
                 Check out our detailed list here:
-                <NuxtLink href="#" class="text-blue-400"
+                <NuxtLink
+                    href="/blog/top-10-professional-solar-panel-cleaning-companies"
+                    class="text-blue-400"
                     >Top 10 Professional Solar Panel Cleaning
                     Companies</NuxtLink
                 >.
