@@ -19,7 +19,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h2 class="text-3xl font-semibold mb-4">Introduction</h2>
             <p>
                 Investing in solar panels is a smart move for energy efficiency
                 and environmental sustainability. However, maintaining these
@@ -57,7 +56,7 @@ useHead({
                 </li>
             </ul>
             <NuxtLink
-                to="/professional-vs-diy-solar-panel-cleaning"
+                to="/blog/professional-vs-diy-solar-panel-cleaning"
                 class="text-blue-500 hover:underline"
                 >For a deeper understanding of the benefits, check out our
                 detailed comparison between Professional vs. DIY Solar Panel
@@ -110,13 +109,11 @@ useHead({
 
         <section class="mb-8">
             <h2 class="text-3xl font-semibold mb-4">
-                Case Studies: The Impact of Professional Cleaning
+                The Impact of Professional Cleaning
             </h2>
             <div class="space-y-4">
                 <div>
-                    <h3 class="text-2xl font-semibold">
-                        Case Study 1: Enhanced Efficiency
-                    </h3>
+                    <h3 class="text-2xl font-semibold">Enhanced Efficiency</h3>
                     <p>
                         A homeowner in Fontana reported a 20% increase in energy
                         production after hiring a professional cleaning service.
@@ -127,7 +124,7 @@ useHead({
                 </div>
                 <div>
                     <h3 class="text-2xl font-semibold">
-                        Case Study 2: Long-Term Maintenance Benefits
+                        Long-Term Maintenance Benefits
                     </h3>
                     <p>
                         In Victorville, a customer shared how regular
@@ -139,7 +136,7 @@ useHead({
                 </div>
             </div>
             <NuxtLink
-                to="/how-often-to-hire-professionals"
+                to="/blog/how-often-to-hire-professionals"
                 class="text-blue-500 hover:underline"
                 >For more insights on maintenance frequency, visit our guide on
                 How Often to Hire Professionals for Solar Panel
@@ -149,7 +146,7 @@ useHead({
 
         <section class="mb-8">
             <h2 class="text-3xl font-semibold mb-4">
-                Analysis: Safety and Efficiency Advantages
+                Safety and Efficiency Advantages
             </h2>
             <p>
                 Hiring professionals for solar panel cleaning is not just about
@@ -160,7 +157,7 @@ useHead({
                 maximize cleaning effectiveness while safeguarding the panels.
             </p>
             <NuxtLink
-                to="/safety-advantages"
+                to="/blog/safety-advantages-professional-solar-panel-cleaning"
                 class="text-blue-500 hover:underline"
                 >Explore more about the Safety Advantages of Professional Solar
                 Panel Cleaning.</NuxtLink
@@ -168,7 +165,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h2 class="text-3xl font-semibold mb-4">Conclusion</h2>
             <p>
                 Customer reviews and testimonials from San Bernardino County
                 highlight the significant benefits of hiring professional solar
