@@ -79,4 +79,13 @@ export const articles = ref([
     link: "/blog/eco-friendly-professional-solar-panel-cleaning-services",
     image: "/solar_sustain_man_on_roof.webp",
   },
+  {
+    id: 10,
+    title: "Customer Reviews of Professional Solar Panel Cleaning Services",
+    date: "07-19-2024",
+    description:
+      "Compiling Testimonials and Reviews from Customers of Professional Services",
+    link: "/blog/eco-friendly-professional-solar-panel-cleaning-services",
+    image: "/solar_sustain_man_on_roof.webp",
+  },
 ]);
