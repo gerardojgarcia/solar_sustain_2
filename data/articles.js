@@ -89,3 +89,5 @@ export const articles = ref([
     image: "/solar_sustain_man_on_roof.webp",
   },
 ]);
+
+export default articles;
