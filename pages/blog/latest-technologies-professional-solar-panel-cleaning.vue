@@ -1,7 +1,8 @@
 <script setup>
 useHead({
     title: "Latest Technologies in Professional Solar Panel Cleaning",
-    description: "",
+    description:
+        "Introduction to the cutting-edge technologies and tools revolutionizing the professional solar panel cleaning industry.",
 });
 </script>
 
