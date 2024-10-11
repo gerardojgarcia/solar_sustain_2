@@ -3,7 +3,7 @@ import { articles } from "/data/articles.js";
 </script>
 <template>
     <div>
-        <nav class="side-nav flex flex-col">
+        <nav class="side-nav flex flex-col overflow-y-auto max-h-3/4">
             <NuxtLink to="/blog/blog-articles">back to articles</NuxtLink>
             <NuxtLink
                 :to="article.link"
