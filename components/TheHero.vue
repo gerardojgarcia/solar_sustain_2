@@ -1,12 +1,12 @@
 <script setup></script>
 <template>
-    <div class="hero grid md:grid-cols-2 place-items-center md:py-32 ">
+    <div class="hero grid md:grid-cols-2 place-items-center md:py-4">
         <div class="heading flex flex-col items-center py-6">
             <h1 class="text-5xl text-center m-auto mb-8 md:px-12">
                 Shine Brighter with
                 <strong class="text-yellow-400">Premium Solar Care</strong>
             </h1>
-            <p class="subheading text-center text-2xl md:px-32 ">
+            <p class="subheading text-center text-2xl md:px-32">
                 Extend the life and efficiency of your solar investment with
                 expert maintenance and real-time support
             </p>
@@ -27,7 +27,9 @@
             </div>
         </div>
 
-        <div><img src="/solar_sustain_hero.webp" alt="" /></div>
+        <div class="bg-[url('/solar_sustain_hero.webp')] bg-no-repeat">
+            <TheQuickQuoteTool />
+        </div>
     </div>
 </template>
 <style scoped>

@@ -97,6 +97,7 @@ const cards = ref([
 
                 <NuxtLink
                     class="border-2 border-blue-400 flex justify-center rounded-md p-2 md:w-1/4 self-end mt-16 hover:shadow-lg hover:bg-blue-400 hover:text-white duration-150"
+                    to="/quote"
                 >
                     Book now
                 </NuxtLink>
